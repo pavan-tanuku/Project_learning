@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>% - Relative to Parent Example</title>
+    <style>
+        .parent {
+            background-color: lightblue;
+            width: 400px;
+            height: 200px;
+            padding: 10px;
+        }
+
+        .child {
+            background-color: steelblue;
+            width: 50%;
+            height: 50%;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>% - Relative to Parent</h2>
+    <div class="parent">
+        Parent element
+        <div class="child">
+            50% x 50%
+        </div>
+    </div>
+</body>
+</html>

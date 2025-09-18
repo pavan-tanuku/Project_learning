@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>em - Relative to Parent's Font Size Example</title>
+    <style>
+        .parent {
+            background-color: lightgray;
+            padding: 10px;
+            font-size: 20px;
+        }
+
+        .child {
+            font-size: 2em; /* 2 * 20px = 40px */
+            background-color: white;
+            padding: 5px;
+            border: 1px solid grey;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h2>em - Relative to Parent's Font Size</h2>
+    <div class="parent">
+        Parent Text
+        <div class="child">This is 2em</div>
+    </div>
+</body>
+</html>
